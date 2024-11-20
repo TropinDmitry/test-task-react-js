@@ -1,0 +1,61 @@
+.modal-login {
+    padding: 2rem;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    z-index: 999;
+    display: flex;
+
+    .modal-wrapper {
+        width: 100%;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        .input-field {
+            width: 100%;
+
+            input {
+                display: block;
+                margin-bottom: 1rem;
+                padding: 0.5rem;
+                width: calc(100% - 20px);
+                border: 1px solid #ff685b;
+                border-radius: 2px;
+            }
+        }
+
+        .btn-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+
+            .login {
+                border-radius: 5px;
+                padding: 15px 40px;
+                background-color: #ff685b;
+                border: none;
+                color: #ffffff;
+            }
+
+            .close {
+                border-radius: 5px;
+                padding: 15px 40px;
+                background-color: #ffffff;
+                border: 1px solid #ff685b;
+                color: #ff685b;
+            }
+        }
+
+        .error-msg {
+            color: red;
+            font-size: 14px;
+        }
+    }
+}

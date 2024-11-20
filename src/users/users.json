@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "login": "dmitry.tropin",
+            "password": "12345",
+            "name": "Dmitry",
+            "lastname": "Tropin",
+            "email": "dmitry.mental@gmail.com"
+        },
+        {
+            "login": "alexey545",
+            "password": "asd123",
+            "name": "Alexey",
+            "lastname": "Ivanov",
+            "email": "alexey.ivanov@gmail.com"
+        },
+        {
+            "login": "root",
+            "password": "rootroot",
+            "name": "Root",
+            "lastname": "Root",
+            "email": "root@rambler.ru"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+.card {
+    width: 249px;
+    height: 178px;
+    padding: 35px 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+    .icon {
+        width: 72px;
+        height: 72px;
+        background-color: #e74040;
+        border-radius: 200px;
+
+        img {
+            width: 32px;
+            height: 32px;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+    }
+
+    h3 {
+        color: #252b42;
+        margin: 0;
+    }
+
+    .underline {
+        width: 50px;
+        height: 2px;
+        background-color: #e74040;
+    }
+
+    p {
+        font-family: 'Montserrat';
+        color: #737373;
+        margin: 0;
+    }
+}
